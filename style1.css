@@ -1,0 +1,25 @@
+body{
+    background-color: lightseagreen;
+
+}
+h1{
+    color: rgb(67, 4, 238);
+    font-family: cursive;
+    font-size: medium;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    border: 10px solid blue;
+    padding: 100px;
+    margin:50px;
+}
+a{
+    color: chartreuse;
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: fantasy;
+}
