@@ -1,5 +1,4 @@
 body{
-    background-image: url("Krishna.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 98% 100%;
@@ -20,7 +19,7 @@ p{
     color: red;
     border: 10px solid blue;
     padding: 10px;
-    margin:300px ;
+    margin:200px ;
 }
 a{
     color: chartreuse;
@@ -29,4 +28,11 @@ a{
     font-weight: bolder;
     font-style: italic;
     font-family: fantasy;
+    text-align: center;
+}
+button{
+    background-color: aqua;
+    font-size: 30px;
+    color: brown;
+    cursor: pointer;
 }
