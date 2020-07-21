@@ -1,0 +1,25 @@
+body{
+    background-color: lightyellow;
+    font-size: 70px;
+
+}
+p{
+    font-style: italic;
+    font-size: 40px;
+    color: violet;
+    background-color: yellow;
+}
+ul1{
+    color: red;
+}
+ul2{
+    color: greenyellow;
+    list-style-type: square;
+}
+ol{
+    color: teal;
+    list-style-type: upper-alpha;
+}
+dl{
+    color: green;
+}
