@@ -1,216 +1,84 @@
-<!-- 2021-06-05 11:39:37 -->
+<!-- 2021-10-04 09:06:32 -->
 
 <!DOCTYPE html>
 <html lang="en">
-<!--lang attribute -->
+	<!--lang attribute -->
 
-<head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- <meta name="refresh" http-equiv="refresh" content="20"> to refresh page after every 20 seconds. -->
+		<title>Document</title>
+	</head>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="refresh" http-equiv="refresh" content="20"> <!-- to refresh page after every 20 seconds. -->
-    <!-- <meta http-equiv = "refresh" content = "5; url = http://www.tutorialspoint.com" /> -->
-    <meta http-equiv="cookie" content="2; userid = xyz; expires = Wednesday, 08-Aug-22 23:59:59 GMT;" />
-    <!-- <base href="https://www.tutorialspoint.com/"> -->
+	<body style="background-color: rgb(39, 25, 8); color: rgb(200, 0, 255)">
+		<!-- Text formatting -->
 
+		<div class="text-formatting">
+			<h2><u>Text Formatting</u></h2>
+			<ul>
+				<li><b>Bold Text</b></li>
+				<li><strong>Important Text(strong tag)</strong></li>
+				<li><i>Italic Text</i></li>
+				<li><em>Emphasized Text</em></li>
+				<li><mark>Marked Text</mark></li>
+				<li><small>Smaller Text</small></li>
+				<li><del>deleted text</del></li>
+				<li><ins>Inserted Text</ins></li>
+				<li>R<sub>Subscript Text</sub></li>
+				<li>R<sup>Superscript Text</sup></li>
+			</ul>
+		</div>
 
-    <title>Document</title>
-</head>
+		<!-- Quotation and Citation Elements -->
+		<div class="quotation-citation">
+			<p>Here is a quote from WWF's website:</p>
+			<blockquote cite="http://www.worldwildlife.org/who/index.html">
+				For 50 years, WWF has been protecting the future of nature. The world's
+				leading conservation organization, WWF works in 100 countries and is
+				supported by 1.2 million menbers in the United States and close to 5
+				million globally.
+			</blockquote>
 
-<body alink="red" link="green" vlink="yellow">
-    <p>this page refresh after every 20 seconds.</p>
-    <h1>Hello World!</h1>
-    <!--heading tag -->
-    <P>Hello!, This is my first page.</P>
-    <!--paragraph tag -->
-    <p>tutorial for html </br> <!-- line break tag -->
-        is given here. </p>
-    <center>this text is in center</center> <!-- center tag  -->
-    <hr> <!-- hr tag horizontal line break -->
-    <p>horizontal line break</p>
+			<!-- <q> tag for short quotations  -->
+			<p>
+				WWF's goal is to:
+				<q>Build a future where people live in harmony with nature.</q>
+			</p>
 
-    <pre>Rohitasw 
-Choudhary                           <!-- Preserve Formatting -- pre tag -->
-    </pre>
+			<!-- <abbr> tag for Abbreviations.  -->
+			<p>
+				The <abbr title="World Health Organization">WHO</abbr> was founded in
+				1948.
+			</p>
 
-    <a id="linking_page">This is the wher Link to a Page Section pointing to.</a>
+			<!-- <address> tag -->
 
-    <h1>This is <i>italic</i> heading</h1>
-    <p>This is <u>underlined</u> paragraph</p>
+			<address>
+				Written by Rohitasw Choudhary.<br>
+				Visit us at :<br>
+				PHED Block campus Rajdhanwar<br>
+				Giridih, Jharkhand<br>
+				India
+			</address>
 
-    <!--html attributes: -->
+			<!-- <cite> tag , it defines the title of a creative work -->
+			
+			<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
 
-    <p align="left">this is left aligned.</p>
-    <P align="right">this is right aligned.</P>
-    <p align="center">this is center aligned.</p>
+			<bdo dir="rtl">This text will be written from right to left</bdo>		
+		</div>
 
-
-    <!-- core attributes -->
-    <p id="html">this paragraph explains what is html</p>
-    <p id="css">this paragraph explains what is CSS</p>
-
-    <!-- title attributes -->
-    <h2 title="Hello HTML">titled heading tag example.</h2>
-    <!--style attributes -->
-    <p style="font-family:fantasy;color:rgb(32, 10, 226);">the style attribute</p>
-
-    <!-- links -->
-    <a href="https://www.mozilla.org/en-US/about/manifesto/"> Mozilla Manifesto"</a>
-    <!-- hypertext reference -- href -->
-
-    <!-- dir attribute -->
-    <p dir="rtl">This is how Chrome renders right-to-left directed text.</p>
-
-    <p>the following word use a <b>bold</b> typeface.</p>
-
-    <p>the following word uses an <i>italic</i> typeface.</p>
-
-    <p>The following word has been <mark>marked</mark> with yellow</p>
-
-    <p>My best friend's name is <abbr title="unknown">Macchar</abbr>.</p>
-
-    <p>This text will go left to right.</p>
-    <p><bdo dir="rtl">This text will go right to left.</bdo></p>
-
-    <img src="https://www.tutorialspoint.com/images/clipart/flow/flow17.gif" alt="Test image">
-
-
-    <img src="https://www.tutorialspoint.com/images/clipart/flow/flow1.gif" alt="Test Image2" />
-    <img src="https://www.tutorialspoint.com/images/clipart/flow/flow1.gif" alt="Test Image3" width="150"
-        height="100" />
-    <img src="https://www.tutorialspoint.com/images/clipart/flow/flow4.jpg" alt="Test Image4" border="3"
-        align="right" />
-
-
-    <!-- HTML tables -->
-
-    <table border="1">
-        <tr>
-            <td>Row1, column 1</td>
-            <td>Row1, column 2</td>
-        </tr>
-        <tr>
-            <td>Row2, column 1</td>
-            <td>Row2, column 2</td>
-        </tr>
-
-    </table>
-
-    <table border="1">
-        <tr>
-            <th>Name</th>
-            <th>Salary</th>
-        </tr>
-        <tr>
-            <td>Rohitasw</td>
-            <td>50000</td>
-        </tr>
-
-        <tr>
-            <td>Rohit</td>
-            <td>70000</td>
-        </tr>
-
-
-    </table>
-
-    <!-- cellpadding and cellspacing  -->
-
-    <table border="1" cellpadding="5" cellspacing="5">
-
-        <tr>
-            <th>Name</th>
-            <th>Salary</th>
-        </tr>
-        <tr>
-            <td>Rohitasw</td>
-            <td>50000</td>
-        </tr>
-
-        <tr>
-            <td>Rohit</td>
-            <td>70000</td>
-        </tr>
-
-
-    </table>
-
-    <!-- Colspan and Rowspan Attributes  -->
-
-    <table border="1" bgcolor="black">
-        <tr>
-            <th>Column 1</th>
-            <th>Column 2</th>
-            <th>Column 3</th>
-        </tr>
-        <tr>
-            <td rowspan="2">Row 1 Cell 1</td>
-            <td>Row 1 Cell 2</td>
-            <td>Row 1 Cell 3</td>
-        </tr>
-        <tr>
-            <td>Row 2 Cell 2</td>
-            <td>Row 2 Cell 3</td>
-        </tr>
-        <tr>
-            <td colspan="3">Row 3 Cell 1</td>
-        </tr>
-    </table>
-
-    <ul type="square">
-        <li>Beetroot</li>
-        <li>Ginger</li>
-        <li>Potato</li>
-        <li>Radish</li>
-    </ul>
-
-    <ol type="I">
-        <li>Beetroot</li>
-        <li>Ginger</li>
-        <li>Potato</li>
-        <li>Radish</li>
-    </ol>
-
-    <ol type="i" start="4">
-        <li>Beetroot</li>
-        <li>Ginger</li>
-        <li>Potato</li>
-        <li>Radish</li>
-    </ol>
-
-    <dl>
-        <dt><b>HTML</b></dt>
-        <dd>This stands for Hyper Text Markup Language</dd>
-        <dt><b>HTTP</b></dt>
-        <dd>This stands for Hyper Text Transfer Protocol</dd>
-    </dl>
-
-    <p>Click any of the following links</p>
-
-    <a href="https://www.tutorialspoint.com/html/index.htm" target="_blank">Opens in New</a> |
-    <a href="https://www.tutorialspoint.com/html/index.htm" target="_self">Opens in Self</a> |
-    <a href="https://www.tutorialspoint.com/html/index.htm" target="_parent">Opens in Parent</a> |
-    <a href="https://www.tutorialspoint.com/html/index.htm" target="_top">Opens in Body</a>
-
-
-    <a href="https://www.tutorialspoint.com/jupyter/jupyter_tutorial.pdf" target="_blank">Download PDF File</a>
-
-    <p>Click following link</p>
-    <a href="https://www.tutorialspoint.com" target="_self">
-        <img src="https://www.tutorialspoint.com2021-06-09/images/logo.png" alt="Tutorials Point" border="0" />
-    </a>
-
-    <a href="mailto:rohitaswchoudhary@gmail.com">Send mail</a>
-
-    <a href="mailto:rohitaswchoudhary@gmail.com?subject = Feedback&body = Message">
-        Send Feedback
-    </a>
-
-
-    <p>
-        <a href="#linking_page">Click here to see an example of how a page linking works.</a>
-    </p>
-</body>
-
+		<div class="color-formatting" style="color: white;">
+			<h3 style="background-color: tomato;">Tomato</h3>
+			<h3 style="background-color: orange;">Orange</h3>
+			<h3 style="background-color: dodgerblue;">dodgerblue</h3>
+			<h3 style="background-color:mediumseagreen;">mediumseagreen</h3>
+			<h3 style="background-color: gray;">gray</h3>
+			<h3 style="border: 2px solid tomato;">Hello..........</h3>
+			<h3 style="border: 2px solid violet;">Hello..........</h3>
+			<h3 style="border: 2px solid green;">Hello..........</h3>
+		</div>
+	</body>
 </html>
