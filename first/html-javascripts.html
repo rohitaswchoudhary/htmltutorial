@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Rohitasw">
+    <title>try_html_script</title>
+</head>
+<body>
+    <h1>My First JavaScript</h1>
+    <button type="button" onclick="document.getElementById('date').innerHTML =Date()">CLICK to display Date</button>
+    <p id="date"></p>
+
+    <h2>JavaScript can change the content of an html element:</h2>
+    <button type="button" onclick="myFunction()">CLICK me!</button>
+    <p id="demo">This Text will be changed </p>
+
+    <script>
+        function myFunction(){
+            document.getElementById('demo').innerHTML= "Hello JavaScript!!";
+            document.getElementById("demo").style.fontSize = "35px";
+            document.getElementById("demo").style.color = "red";
+        }
+    </script>
+</body>
+</html>
